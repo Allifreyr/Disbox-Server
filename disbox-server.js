@@ -52,6 +52,6 @@ app.delete('/files/delete/:userId/:id', (req, res) => {
 });
 
 
-app.listen(process.env.PORT, () => {
-  console.log(`Example app listening on port ${process.env.PORT}`)
-})
+app.listen(process.env.PORT || port, () => {
+  console.log(`Example app listening on port ${process.env.PORT || port}`);
+});

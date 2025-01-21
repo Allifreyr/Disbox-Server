@@ -38,3 +38,5 @@ yarn.lock
 # Optional files for specific environments (can be addedremoved as needed)
 .bak
 .swp
+
+disbox.db
